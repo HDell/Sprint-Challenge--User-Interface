@@ -267,4 +267,51 @@ footer nav a {
 }
 
 
+/* Products Page */
 
+.flex-row-prod {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2%;
+    margin-bottom: 5%;
+}
+
+.flex-row-prod-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding: 0 2%;
+    margin-bottom: 5%;
+}
+
+.prod-img-1 {
+    height: auto;
+    width: 48%;
+}
+
+.row-3 {
+    margin-bottom: 3%;
+}
+
+.flex-row-prod .text-container {
+    width: 48%;
+}
+
+.prod-page {
+    margin-top: 5%;
+    margin-bottom: 4%;
+    border-bottom: 1px dashed black;
+}
+
+/* Animation */
+
+@keyframes simpleAnim {
+    from {background-color: white;}
+    to {background-color: gold;}
+}
+
+.button:hover {
+    animation-name: simpleAnim;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
