@@ -14,7 +14,7 @@ You have three hours to complete this challenge. Plan your time accordingly.
 
 ## Commits
 
-Commit your code regularly and meaningfully. This helps both you (in case you ever need to return to old code for any number of reasons and your project manager.
+Commit your code regularly and meaningfully. This helps both you (in case you ever need to return to old code for any number of reasons) and your project manager.
 
 ## Description
 
@@ -34,13 +34,26 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Semantic HTML refers to tags that help describe the elements of an HTML web page. It is distinct from presentational HTML, which refers to tags that solely aid in selecting and grouping elements.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+The biggest difference between the two is that (by default) block-level elements take up an entire (horizontal) line of the page, whereas inline-level elements fall in the same line as other elements. Another difference is that block elements have height and width properties, wheras inline elements only have left-right content-related properties (excluding borders).
 
 3. What are the 4 areas of the box model?
 
+	- Margins
+	- Borders
+	- Padding
+	- Content
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+	It works on the cross-axis.
+
 5. Explain why git is valuable to a team of developers.
+
+	It helps developers manage versioning in a repository by giving them a reversible history of changes, providing solutions to version conflicts, and facilitating branching and merging.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
